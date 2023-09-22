@@ -11,6 +11,8 @@ body {
 }
 
 .first {
+    color: white;
+    background-color: #1f2937;
     padding: 0% 10% 10% 10%;
 }
 
@@ -37,13 +39,7 @@ ul {
     gap: 10px;
 }
 
-.first,
-.footer {
 
-    color: white;
-    background-color: #1f2937;
-
-}
 
 #logo {
     font-size: 24px;
@@ -123,7 +119,7 @@ button,
 .third {
     background-color: #e5e7eb;
     padding: 60px 200px;
-    min-width: 600px;
+    min-width: 500px;
 }
 
 .third p {
@@ -167,10 +163,14 @@ button,
 }
 
 .footer {
+    color: white;
+    background-color: #1f2937;
+    min-width: 1000px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     font-size: small;
     padding: 25px;
+
 }
